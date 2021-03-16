@@ -1,0 +1,27 @@
+{
+    "name": "chat-server",
+    "version": "0.1.0",
+    "description": "chat-server",
+    "main": "app.js",
+    "private": true,
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "node app.js",
+        "start-dev": "nodemon app.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Mateusz-Szczykutowicz/chat-server.git"
+    },
+    "author": "Mateusz Szczykutowicz",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/Mateusz-Szczykutowicz/chat-server/issues"
+    },
+    "homepage": "https://github.com/Mateusz-Szczykutowicz/chat-server#readme",
+    "dependencies": {
+        "cors": "^2.8.5",
+        "express": "^4.17.1",
+        "socket.io": "^4.0.0"
+    }
+}
